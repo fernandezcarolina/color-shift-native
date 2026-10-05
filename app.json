@@ -1,13 +1,13 @@
 {
   "expo": {
-    "name": "color-shift-native",
+    "name": "Color Shift",
     "slug": "color-shift-native",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": false
     },
     "android": {
       "adaptiveIcon": {
@@ -20,6 +20,11 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-image",
+      "expo-font",
+      "expo-status-bar"
+    ]
   }
 }
